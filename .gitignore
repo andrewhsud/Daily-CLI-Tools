@@ -1,0 +1,16 @@
+AGENTS.md
+node_modules
+.DS_Store
+dist
+__pycache__
+build
+*.log
+venv
+*.pyc
+.env
+cache
+.pytest_cache
+.idea
+.coverage
+coverage.xml
+tmp
