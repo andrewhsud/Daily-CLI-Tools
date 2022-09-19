@@ -96,7 +96,7 @@ def build_parser() -> argparse.ArgumentParser:
     f.set_defaults(func=_cmd_finddup)
 
     g = sub.add_parser("glint", help="show/prune local branches merged into main")
-    g.add_argument("--main", default="main")
+    g.add_argument("--main", default="main", help="integration branch name")
     g.add_argument("--prune", action="store_true")
     g.set_defaults(func=_cmd_glint)
 
