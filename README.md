@@ -20,11 +20,13 @@ Quick start
 Tools (initial set)
 - `stamp` – print timestamps in various formats
 - `glint` – tidy up local git branches safely
+- `finddup` – scan for duplicate files by hash
 
 Conventions
 - Subcommands prefer explicit flags over env
 - Output is line-oriented and greppable
 - Non-zero exit code for "nothing found"
+  - `finddup` returns 1 when no duplicates are found
 - `finddup` – scan for duplicate files by hash
 
 Contributing

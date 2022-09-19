@@ -14,3 +14,4 @@ cache
 .coverage
 coverage.xml
 tmp
+examples/*.tmp
